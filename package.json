@@ -1,0 +1,37 @@
+{
+  "name": "reactmovieapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm-run-all --parallel start:**",
+    "all-start": "npm-run-all --parallel start:**",
+    "start:client": "cd reactmovieapp && npm start",
+    "start:server": "node ./server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.7",
+    "nodemon": "^2.0.2",
+    "npm-run-all": "^4.1.5",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-google-token": "^0.1.2",
+    "passport-jwt": "^4.0.0",
+    "react": "^16.12.0",
+    "style-loader": "^1.2.0",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.0",
+    "sass-loader": "^8.0.2"
+  }
+}
